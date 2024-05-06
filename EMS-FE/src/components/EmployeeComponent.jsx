@@ -48,8 +48,6 @@ const EmployeeComponent = () => {
 
             
             if(id){
-
-                
                 updatteemployee(id,employee).then((response)=> {
                     console.log(response.data)
                     navigator('/employees')
